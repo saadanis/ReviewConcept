@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		933A4F0B24DD5F7200087D84 /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A4F0A24DD5F7200087D84 /* OverviewView.swift */; };
+		933A4F0D24DD609100087D84 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A4F0C24DD609100087D84 /* Review.swift */; };
 		934398DF24DB598B00C7DA88 /* ReviewConceptApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934398DE24DB598B00C7DA88 /* ReviewConceptApp.swift */; };
 		934398E124DB598B00C7DA88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934398E024DB598B00C7DA88 /* ContentView.swift */; };
 		934398E324DB598B00C7DA88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934398E224DB598B00C7DA88 /* Assets.xcassets */; };
 		934398E624DB598B00C7DA88 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934398E524DB598B00C7DA88 /* Preview Assets.xcassets */; };
+		9353262F24E1399F00AF2B37 /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9353262E24E1399F00AF2B37 /* TemplateView.swift */; };
+		9353264C24E1636900AF2B37 /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9353264B24E1636900AF2B37 /* NewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		933A4F0A24DD5F7200087D84 /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
+		933A4F0C24DD609100087D84 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		934398DB24DB598B00C7DA88 /* ReviewConcept.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReviewConcept.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		934398DE24DB598B00C7DA88 /* ReviewConceptApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewConceptApp.swift; sourceTree = "<group>"; };
 		934398E024DB598B00C7DA88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		934398E224DB598B00C7DA88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		934398E524DB598B00C7DA88 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		934398E724DB598B00C7DA88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9353262E24E1399F00AF2B37 /* TemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateView.swift; sourceTree = "<group>"; };
+		9353264B24E1636900AF2B37 /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 			children = (
 				934398DE24DB598B00C7DA88 /* ReviewConceptApp.swift */,
 				934398E024DB598B00C7DA88 /* ContentView.swift */,
+				9353264B24E1636900AF2B37 /* NewView.swift */,
+				933A4F0A24DD5F7200087D84 /* OverviewView.swift */,
+				9353262E24E1399F00AF2B37 /* TemplateView.swift */,
+				933A4F0C24DD609100087D84 /* Review.swift */,
 				934398E224DB598B00C7DA88 /* Assets.xcassets */,
 				934398E724DB598B00C7DA88 /* Info.plist */,
 				934398E424DB598B00C7DA88 /* Preview Content */,
@@ -139,6 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				934398E124DB598B00C7DA88 /* ContentView.swift in Sources */,
+				933A4F0D24DD609100087D84 /* Review.swift in Sources */,
+				933A4F0B24DD5F7200087D84 /* OverviewView.swift in Sources */,
+				9353264C24E1636900AF2B37 /* NewView.swift in Sources */,
+				9353262F24E1399F00AF2B37 /* TemplateView.swift in Sources */,
 				934398DF24DB598B00C7DA88 /* ReviewConceptApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
